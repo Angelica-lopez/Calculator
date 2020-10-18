@@ -1,3 +1,5 @@
+
+/*var $screenOfOutcome = document.querySelector("js-screen");
 var $numberZero = document.querySelector(".js-zero");
 var $numberOne = document.querySelector(".js-one");
 var $numberTwo = document.querySelector(".js-two");
@@ -15,7 +17,7 @@ var $numberSlash = document.querySelector(".js-slash");
 var $numberEqual = document.querySelector(".js-equal");
 var $numberCe = document.querySelector(".js-ce");
 
-var contenidoZero = $numberZero.innerHTML;
+
 var contenidoOne = $numberOne.innerHTML;
 var contenidoTwo = $numberTwo.innerHTML;
 var contenidoThree = $numberThree.innerHTML;
@@ -30,7 +32,11 @@ var contenidoLess = $numberLess.innerHTML;
 var contenidoFor = $numberFor.innerHTML;
 var contenidoSlash = $numberSlash.innerHTML;
 var contenidoEqual = $numberEqual.innerHTML;
-var contenidoCe = $numberCe.innerHTML;
+var contenidoCe = $numberCe.innerHTML;*/
+
+
+
+
 
 
 
