@@ -13,8 +13,7 @@ var $more = document.querySelector(".js-more");
 var $less = document.querySelector(".js-less");
 var $x = document.querySelector(".js-x");
 var $slash = document.querySelector(".js-slash");
-var $equal = document.querySelector(".js-equal");
-var $ce = document.querySelector(".js-ce");
+
 
 function zero(){
     var numberZero = $zero.innerHTML;
@@ -72,14 +71,6 @@ function slash(){
     var numberSlash = $slash.innerHTML;
     $screen.innerHTML = numberSlash;
 }
-function equal(){
-    var numberEqual = $equal.innerHTML;
-    $screen.innerHTML = numberEqual;
-}
-function ce(){
-    var numberCe = $ce.innerHTML;
-    $screen.innerHTML = numberCe;
-}
 
 $zero.addEventListener("click", zero);
 $one.addEventListener("click", one);
@@ -95,8 +86,6 @@ $more.addEventListener("click", more);
 $less.addEventListener("click", less);
 $x.addEventListener("click", x);
 $slash.addEventListener("click", slash);
-$equal.addEventListener("click", equal);
-$ce.addEventListener("click", ce);
 
 
 
