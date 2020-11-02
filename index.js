@@ -8,12 +8,10 @@ var $slash = document.querySelector(".js-slash");
 console.log($numbersButtons);
 
 $numbersButtons.forEach(function(numberButton) {
-    console.log("numberButton foreach", numberButton)
     numberButton.addEventListener("click", onClickNumberButton);
 })
 
 function onClickNumberButton(event) {
-    console.log("event.target", event.target);
     $screen.innerHTML = event.target.innerHTML;
 }
 
